@@ -1,11 +1,28 @@
-import React from "react";
+import { info } from "../../helpers";
+import { Carrusel } from "../../components/Carrusel";
 
-const home = () => {
+//import { Navbar } from "../../components";
+
+const Home = () => {
   return (
     <>
-      <h1>Hello world</h1>
+      <section className="bg-slate-50  p-10 ">
+        <div className="container mx-2 shadow-xl">
+          <div className="flex items-center justify-center flex-col gap-8">
+            <Carrusel slides={info} />
+          </div>
+        </div>
+      </section>
+      <div className="bg-yellow-500  p-5 flex justify-center font-extrabold text-xl">Hambre? dinos cual es tu hambre</div>
+      <div>
+        <div>
+          <div>
+            
+          </div>
+        </div>
+      </div>
     </>
   );
 };
 
-export default home;
+export default Home;

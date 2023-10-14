@@ -43,7 +43,7 @@ const Carrusel = ({ slides }: CarruselProps) => {
               autoPlay
               muted
               loop
-              className="mx-auto w-[76%]"
+              className="mx-auto w-[100%]"
             >
               <source
                 src="/public/VideoPromo.mp4"
@@ -61,7 +61,7 @@ const Carrusel = ({ slides }: CarruselProps) => {
       <div className="top-[50%] absolute z-10 button-prev-slide left-0 duration-500 w-[40px] h-[40px] text-3xl text-white bg-black grid place-items-center">
         <RiArrowLeftCircleLine />
       </div>
-      <div className="top-[50%] absolute z-10 button-next-slide right-0 duration-500 w-[40px] h-[40px] text-3xl text-white bg-black grid place-items-center">
+      <div className="top-[50%] absolute z-10 button-next-slide right-7 duration-500 w-[40px] h-[40px] text-3xl text-white bg-black grid place-items-center">
         <RiArrowRightCircleLine />
       </div>
     </Swiper>
